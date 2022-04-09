@@ -1,0 +1,286 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+header{
+	height: 200px;
+	width: 100%;
+	
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 25px;
+	padding-left: 8%;
+	padding-right: 8%;
+	background-color: gray;
+    text-decoration: none;
+}
+.logo{ width: 150px;
+       }
+
+.logodes{font-weight: bold;
+         color: black;
+		 padding: 20px 9%;
+		 font-family: 'Hurricane', cursive; 
+          font-weight: bold;
+		font-size: 20px;}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+	background-color:#8d1760;
+	border-width: 10px;
+    border-radius: 50px ;
+	text-decoration: none;
+}
+nav ul li a{
+	color: white;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color: blue;
+	transition: .4s;
+}
+.content{ color: #8d1760;
+          font-weight: bold;
+		  height: 480px;
+		  padding: 100px 200px;
+		  font-size: 25px;
+		  background-position: center;
+		  background-size: cover;
+		  background-image: url(../png/fit21.jpg);
+		  background-position-y: bottom;
+		}
+		  
+.name{ font-family: 'Ole', cursive;
+       font-size: 60px;
+	   color: black;
+	  }
+	
+.download { border: 2px solid #8d1760;
+	        background-color :#8d1760;
+	        border-width: 10px;
+            border-radius: 50px;
+			text-decoration: none;
+			margin-top: 10px;
+			color: white;
+			font-size: 20px;
+			box-shadow: 0 5px 30px rgba( 1 1 1/100%);
+}
+
+a:hover{ color: red ;}
+
+.about h2 { color: #8d1760 ;
+	font-family: 'Miltonian', cursive;
+   font-size: 40px; 
+   justify-content: center;
+   display: flex; 
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+.main {display: flex;
+	
+	margin: 30px 80px;}
+.main img { clip-path: circle();
+		 margin: 25px;}
+
+.about-text { width: 450px; 
+		   color: rgb(21, 14, 24);
+		   font-weight: bold; 
+		    padding-top: 25px;    }	
+
+h5{ color : rgb(36, 36, 85);
+ font-size: 20px;
+ font-family: 'Charm', cursive;
+
+ }	
+.cards { height: 600px ;
+         margin-bottom: 20px;}	
+.cards h2 { font-size: 40px;
+	        font-family: 'Miltonian', cursive;
+			display: flex;
+			justify-content: center;
+			margin-bottom: 50px;
+			color:#8d1760
+	      }	
+
+.myproject{ border: 2px solid #8d1760;
+            border-radius: 30px;
+		    background-color: white;
+		    width: 250px;
+			height: 400px;
+		    justify-content: center;
+		    flex-wrap: wrap;
+			box-shadow: 0 5px 50px rgba( 1 1 1/100%);
+			padding: 25px;
+			transition: 0.7s ease;
+			margin-left: 380px;
+
+		}	
+.icon { padding-bottom: 20px;}		
+.myproject:hover { transform: scale(1.1);}
+.myproject a { padding-left: 90px;}	
+
+.myskills{
+	height : 900px;
+	justify-content: center;
+	text-align: center;
+	padding: 30px;
+	
+}
+.star h3{ text-align: center;
+          margin-top: 0px;
+          color:white;
+          padding-top: 0px;
+        }    
+
+.myskills h2 { display :flex;
+		justify-content: center;
+		color: #8d1760;
+		font-weight: bold;
+		margin-bottom: 30px;
+		font-weight: bold;
+		font-size: 40px;
+		font-family: 'Miltonian', cursive;
+	} 
+
+.stars{ color: gold;}
+
+.star { border: 1px solid gray; 
+ width: 450px;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ box-shadow: -1px -1px 2px rgba(14, 13, 13, 0.25) ; 
+ inset : 2px 2px 5px rgba(7, 7, 7, 0.25) ;
+ border-radius: 30px;
+ background-color:rgb(36, 36, 85) ;
+ padding-left: 40px;
+ margin-left: 250px;
+
+  }  
+.star a:hover{
+    transform: scale(1.3);
+    transition: .3s; }   
+
+.skill-1 {justify-content: space-between;
+   display: flex;
+   padding : 20px 30px ;
+   box-shadow: -1px -1px 2px rgba(14, 13, 13, 0.25) ; 
+   inset : 2px 2px 5px rgba(7, 7, 7, 0.25) ;
+   border-radius: 30px;
+   width: 400px;
+   height: 20px;
+   }
+
+.skill-2 {justify-content: space-between;
+   display: flex;
+   padding : 20px 30px ;
+   box-shadow: -1px -1px 2px rgba(14, 13, 13, 0.25) ; 
+   inset : 2px 2px 5px rgba(7, 7, 7, 0.25) ;
+   border-radius: 30px;
+   width: 400px;
+   height: 20px;}  
+
+.skill-3 {justify-content: space-between;
+   display: flex;
+   padding : 20px 30px ;
+   box-shadow: -1px -1px 2px rgba(14, 13, 13, 0.25) ; 
+   inset : 2px 2px 5px rgba(7, 7, 7, 0.25) ;
+   border-radius: 30px;
+   height: 20px;
+   width: 400px;} 
+
+.skill-4 {justify-content: space-between;
+   display: flex;
+   padding : 20px 30px ;
+   box-shadow: -1px -1px 2px rgba(14, 13, 13, 0.25) ; 
+   inset : 2px 2px 5px rgba(7, 7, 7, 0.25) ;
+   border-radius: 30px;
+   height: 20px;
+   width: 400px;} 
+
+.skill-5 {justify-content: space-between;
+   display: flex;
+   padding : 20px 30px ;
+   box-shadow: -1px -1px 2px rgba(14, 13, 13, 0.25) ; 
+   inset : 2px 2px 5px rgba(7, 7, 7, 0.25) ;
+   border-radius: 30px;
+   width: 400px;
+   height: 20px;}  
+
+.skill-6 {justify-content: space-between;
+   display: flex;
+   padding : 20px 30px ;
+   box-shadow: -1px -1px 2px rgba(14, 13, 13, 0.25) ; 
+   inset : 2px 2px 5px rgba(7, 7, 7, 0.25) ;
+   border-radius: 30px;
+   height: 20px;
+   width: 400px;}
+
+.skill-7 {justify-content: space-between;
+   display: flex;
+   padding : 20px 30px ;
+   box-shadow: -1px -1px 2px rgba(14, 13, 13, 0.25) ; 
+   inset : 2px 2px 5px rgba(7, 7, 7, 0.25) ;
+   border-radius: 30px;
+   height: 20px;
+   width: 400px;}
+
+.skill-8 {justify-content: space-between;
+   display: flex;
+   padding : 20px 30px ;
+   box-shadow: -1px -1px 2px rgba(14, 13, 13, 0.25) ; 
+   inset : 2px 2px 5px rgba(7, 7, 7, 0.25) ;
+   border-radius: 30px;
+   height: 20px;
+   width: 400px;}                                   
+
+
+		  
+		  
+footer{ justify-content: center;
+		align-items: center;
+		height: 150px;
+		width: 100%;
+		padding-top: 25px;
+	    padding-left: 8%;
+	    padding-right: 8%;
+		background-color: rgb(83, 82, 82);
+      }
+footer p{ font-family: 'Miltonian', cursive;
+	     color: white;
+		 font-size: 25px;
+		 font-weight: bold;
+         display: flex;
+		 justify-content: center;
+		 
+        }	
+.socialmedia{
+			display: flex;
+			justify-content: center;
+	
+		}
+.socialmedia a{
+			width: 45px;
+			height: 45px;
+			display: flex;
+			align-items: center;
+		    justify-content: center;
+			background:  #8d1760;
+			border-radius: 50%;
+			margin: 22px 10px;
+			color: white;
+			text-decoration: none;
+			font-size: 20px;
+		}
+.socialmedia a:hover{
+			transform: scale(1.3);
+			transition: .3s; }
+
+		   
